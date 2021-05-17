@@ -6,7 +6,7 @@ on a computer or print them.
 
 ### Usage (assuming [python](https://www.python.org/) is installed) :
 ```sh
-python export.py <input filename> <output filename>
+python export.py <input_filename> <output_filename>
 ```
 ### Features to be added:
 - Another script that just displays info about the vCard file
@@ -18,7 +18,7 @@ python export.py <input filename> <output filename>
 -  2: unexpected charset (non utf-8) detected
 -  3: input file not found
 
-##### How the script works:
+#### How the script works:
 The script reads the input file line-by-line, handling each line according to the label
 that it begins with. A dictionary is created for each contact, and its information is stored
 in there. The dictionary is formatted as follows:
